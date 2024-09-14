@@ -26,6 +26,7 @@ tieShapeM = \shape #'((0 . 0) (0 . 1) (-0.75 . 1) (-0.75 . 0)) \etc
 
 forceHShiftA = \tweak NoteColumn.force-hshift 0.7 \etc
 forceHShiftB = \tweak NoteColumn.force-hshift 0.2 \etc
+forceHShiftC = \tweak NoteColumn.force-hshift 0.3 \etc
 
 moveRestA = \tweak X-offset 1.4 \etc
 moveAccentA = -\offset Y-offset 0.25 \etc
@@ -200,7 +201,7 @@ rightHandMiddle = \relative {
   \voiceThree fs2 \forceHShiftB a |
   \forceHShiftB gs2 g8\rest b a gs |
   fs4 a gs fs |
-  \forceHShiftB es2 \forceHShiftB fs2_~ |
+  \forceHShiftB es2 \forceHShiftC fs2_~ |
   \forceHShiftA fs4 e \voiceTwo e2~ |
   e2 ds |
   e1~ |
