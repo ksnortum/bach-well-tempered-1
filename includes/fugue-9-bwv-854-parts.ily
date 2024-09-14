@@ -12,7 +12,7 @@ slurShapeA = \shape #'(
                         ((0 . -1) (0 . -1) (0 . -1) (0 . -1))
                         ) \etc
 
-tieShapeA = \shape #'((0 . -0.75) (0 . -0.5) (0 . 0.25) (0 . 0)) \etc
+tieShapeA = \shape #'((0 . 1) (0 . 1.25) (0 . 1) (0 . 1)) \etc
 
 %%% Music %%%
 
