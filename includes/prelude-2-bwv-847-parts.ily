@@ -115,8 +115,8 @@ leftHand = \relative {
     \\
     { r16 c,8.~ <c b'>2. }
   >> |
-  <c c'>1~ |
-  c2 
+  <c c'>1_~ |
+  \voiceTwo c2 
   <<
     { d'16\rest g, c8_~ \voiceTwo c4~ | c1 }
     \\
