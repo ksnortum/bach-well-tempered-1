@@ -7,7 +7,7 @@
 
 %%% Positions and shapes %%%
 
-moveRestA = \once \override Rest.X-offset = 1
+moveRestA = \once \override Rest.X-offset = 1.25
 
 %%% Music %%%
 
@@ -222,7 +222,7 @@ rightHandLower = \relative {
   << 
     { \voiceFour b4 <a c>8  <b d>4. | } 
     \new Voice { 
-      \voiceTwo \moveRestA e16\rest d[ e c]_~ \hideNoteHead c8 s4. | 
+      \voiceTwo \moveRestA e16\rest d[ e c]^~ \hideNoteHead c8 s4. | 
     } 
   >>
 } 
