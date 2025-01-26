@@ -58,7 +58,7 @@ rightHand = \relative {
   <c e>8\arpeggio\fermata e32( c d e  f64 g af bf c bf af g  f16[ g32 e])
     <c f>8->\arpeggio\fermata  f32( g f e  f[ g af g]  f64 ef d ef f d ef f) |
   \staffDown \voiceOne b,8. d,16  f( af g f  b f d' f,  b af g f |
-  e16 df' bf g  c af f af  g bf g ef  af f d! f) |
+  e16 df' bf g  c af f af  g bf g e  af f d! f) |
   e16( g e c  f d b d) r8 r16 d(  e g bf! g |
   \staffUp af16 c f d  f af c b  c g f d)  <g, c e>4\fermata |
   \bar "|."
